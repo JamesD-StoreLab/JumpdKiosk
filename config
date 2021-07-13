@@ -12,3 +12,4 @@ wallpaper=http://www.jumpd.com.au/wp-content/uploads/2019/03/logo-v2.png
 whitelist=jumpd.com.au rollerdigital.com/jumpd/ https://roller.app/jumpd/
 disable_zoom_controls=yes
 additional_components=uefi.zip
+kiosk_config=https://raw.githubusercontent.com/JamesD-StoreLab/JumpdKiosk/main/config
