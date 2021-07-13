@@ -1,0 +1,14 @@
+connection=wired
+network_interface=eth0
+dhcp=yes
+browser=chrome
+homepage=https://www.rollerdigital.com/jumpd/waiver/
+browser_idle=5
+disable_navigation_bar=yes
+disable_numlock=yes
+volume_level=0%
+timezone=Australia/Sydney
+wallpaper=http://www.jumpd.com.au/wp-content/uploads/2019/03/logo-v2.png
+whitelist=jumpd.com.au rollerdigital.com/jumpd/ https://roller.app/jumpd/
+disable_zoom_controls=yes
+additional_components=uefi.zip
