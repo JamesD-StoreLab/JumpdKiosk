@@ -1,3 +1,5 @@
+# JUMPd is an indoor Trampoline & Ninja Xtreme centre.
+# Begin config.
 connection=wifi
 network_interface=wlan0
 dhcp=yes
@@ -16,3 +18,4 @@ whitelist=jumpd.com.au rollerdigital.com/jumpd/ https://roller.app/jumpd/
 disable_zoom_controls=yes
 kiosk_config=https://raw.githubusercontent.com/JamesD-StoreLab/JumpdKiosk/main/config
 additional_components=uefi.zip
+# End config.
