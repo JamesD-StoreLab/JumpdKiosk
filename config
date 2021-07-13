@@ -1,7 +1,9 @@
-connection=wired
-network_interface=eth0
+connection=wifi
+network_interface=wlan0
 dhcp=yes
-proxy_config=
+wifi_encryption=wpa
+ssid_name=Jumpd-Private
+wpa_password=jumpd2018
 browser=firefox
 homepage=https://www.rollerdigital.com/jumpd/waiver/
 browser_idle=5
