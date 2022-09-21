@@ -12,5 +12,6 @@ volume_level=0%
 timezone=Australia/Sydney
 wallpaper=http://www.jumpd.com.au/wp-content/uploads/2019/03/logo-v2.png
 disable_zoom_controls=yes
+kiosk_config=https://raw.githubusercontent.com/JamesD-StoreLab/JumpdKiosk/Test/config
 additional_components=uefi.zip
 # End config.
