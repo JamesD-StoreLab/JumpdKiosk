@@ -17,4 +17,11 @@ wallpaper=http://www.jumpd.com.au/wp-content/uploads/2019/03/logo-v2.png
 disable_zoom_controls=yes
 kiosk_config=https://raw.githubusercontent.com/JamesD-StoreLab/JumpdKiosk/main/config
 additional_components=uefi.zip
+run_command=(
+  killall firefox
+  wget -O /tmp/firefox.tar.bz2 "https://download.mozilla.org/?product=firefox-latest&os=linux64&lang=en-US"
+  tar xjf /tmp/firefox.tar.bz2 -C /opt/
+  rm /tmp/firefox.tar.bz2
+  ln -sf /opt/firefox/firefox /usr/bin/firefox
+)
 # End config.
